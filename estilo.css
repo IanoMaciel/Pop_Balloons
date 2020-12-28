@@ -1,0 +1,59 @@
+/** index.html **/
+.inicio-jogo
+{
+	border: 2px solid #00868B;
+	border-radius: 40px;
+	width: 200px;
+	height: 200px;
+	/**background: #00C5CD;*/
+	background: linear-gradient(50deg, #00C5CD, #00868B);
+}
+
+.inicio-jogo img
+{
+	margin-top: -30px;
+	margin-left: 50px;
+}
+
+p{
+	margin-left: 25px;
+	margin-top: 40px;
+}
+.jogo-status
+{
+	float: left;
+	width: auto;
+	height: 500px;
+	background: linear-gradient(50deg, #00C5CD, #00868B);
+	border: 2px solid #00868B;
+	border-radius: 40px;
+	margin-right: 5px;
+}
+
+.baloes-fonte
+{
+	font-size: 40px;
+}
+
+.cronometro-img
+{
+	background: url('imagens/cronometro.png');
+	text-align: center;
+}
+
+.cronometro-font
+{
+	color: red;
+	font-size: 30px;	
+}
+
+.fundo-cenario
+{
+	float: left;
+	width: 600px;
+	height: 500px;
+	background: url("imagens/cenario.png");
+	background-position: bottom;
+	border: 2px solid #00868B;
+	border-radius: 40px;
+}
